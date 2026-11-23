@@ -1,7 +1,5 @@
 import requests
 
-TOKEN = "9212075757:AAFjNCCtFsKk3PbMEA3tr3GBFGTTc1UMbM8"
-CHAT_ID = "9064393372"
 
 # url = f"https://api.telegram.org/bot{TOKEN}/getUpdates"
 # response = requests.get(url)
@@ -21,7 +19,6 @@ def send_message():
 #send_message()
 
 
-API_KEY = "05eda42626ba2696a9147ae48239e014" #OpenWeatherMap
 MY_LAT = "51.51705273275507"
 MY_LONG = "-0.1869446108280679"
 
