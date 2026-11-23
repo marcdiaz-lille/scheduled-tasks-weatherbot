@@ -47,6 +47,6 @@ for i in range(0,4):
     if int(data['list'][i]["weather"][0]["id"]) < 700:
         will_it_rain = True
 
-if will_it_rain:
+if will_it_rain==False or will_it_rain==True:
     send_message()
 
