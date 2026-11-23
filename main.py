@@ -1,4 +1,9 @@
+import os
 import requests
+
+API_KEY = os.environ.get("API_KEY")
+TOKEN = os.environ.get("TOKEN")
+CHAT_ID = os.environ.get("CHAT_ID")
 
 
 # url = f"https://api.telegram.org/bot{TOKEN}/getUpdates"
